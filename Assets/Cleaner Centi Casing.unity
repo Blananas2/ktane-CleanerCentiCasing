@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.35872743, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -371,7 +371,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &310392699
 AudioListener:
   m_ObjectHideFlags: 0
@@ -456,19 +456,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4956802798323806, guid: 6b15a0116f4362e44b49f511fe3f28a8, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4956802798323806, guid: 6b15a0116f4362e44b49f511fe3f28a8, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4956802798323806, guid: 6b15a0116f4362e44b49f511fe3f28a8, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4956802798323806, guid: 6b15a0116f4362e44b49f511fe3f28a8, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.00000058114523
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4956802798323806, guid: 6b15a0116f4362e44b49f511fe3f28a8, type: 2}
       propertyPath: m_RootOrder
@@ -476,7 +476,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4956802798323806, guid: 6b15a0116f4362e44b49f511fe3f28a8, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -180.00002
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268626771464390, guid: 6b15a0116f4362e44b49f511fe3f28a8, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6b15a0116f4362e44b49f511fe3f28a8, type: 2}
@@ -535,7 +539,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &775715396
 Light:
   m_ObjectHideFlags: 0
@@ -698,6 +702,24 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1471520703016390, guid: 21f4a49fe0274b247a19f0480d1dc6af, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23061143718469868, guid: 21f4a49fe0274b247a19f0480d1dc6af,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1297191314735884, guid: 21f4a49fe0274b247a19f0480d1dc6af, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114010262734306876, guid: 21f4a49fe0274b247a19f0480d1dc6af,
+        type: 2}
+      propertyPath: ChildRowLength
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 21f4a49fe0274b247a19f0480d1dc6af, type: 2}
   m_IsPrefabParent: 0
@@ -743,6 +765,11 @@ Prefab:
     - target: {fileID: 114848120511536268, guid: 8814ea52310d2614a9feda02ec355ae4,
         type: 2}
       propertyPath: TwitchPlaysActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114617884380056244, guid: 8814ea52310d2614a9feda02ec355ae4,
+        type: 2}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
