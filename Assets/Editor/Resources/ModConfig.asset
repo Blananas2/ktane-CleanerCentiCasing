@@ -21,4 +21,4 @@ MonoBehaviour:
     for'
   version: 
   outputFolder: build
-  previewImage: {fileID: 0}
+  previewImage: {fileID: 2800000, guid: 183ba04687a6b30489c9b491a5764fe5, type: 3}
