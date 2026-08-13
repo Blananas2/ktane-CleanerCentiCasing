@@ -14,7 +14,11 @@ MonoBehaviour:
   id: cleanerCentiCasing
   title: Cleaner Centi Casing
   author: Blananas2
-  description: Title says it all
+  description: 'Title says it all
+
+
+    Thanks to Quinn Wuest for figuring out everything I simply didn''t have the patience
+    for'
   version: 
   outputFolder: build
   previewImage: {fileID: 0}
